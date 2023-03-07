@@ -13,8 +13,8 @@ function get_query() {
     //let value = params.gatha; // "some_value"
     return params.gatha; // "gatha"
 }
-var reload = function (section) {
-    var url = window.location.origin +'/tatvarth.html'+ section;
+var reload = function (qs) {
+    var url = window.location.origin + '/tatvarth.html' + qs;
     $(location).prop('href', url)
 }
 var loadContent = function (gatha, section) {

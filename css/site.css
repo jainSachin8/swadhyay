@@ -87,15 +87,14 @@ p.paragraphE {
 }
 
 a.btnlinks {
-    background-color: #282a35;
+    background-color: #1d1919;
     color: white;
     float: inherit;
     border: none;
     outline: none;
     cursor: pointer;
-    padding: 14px 16px;
+    padding: 8px 8px;
     transition: 0.3s;
-    font-weight: bold;
 }
 /* Style the tab - Sachin*/
 .tab {
@@ -112,7 +111,7 @@ a.btnlinks {
         border: none;
         outline: none;
         cursor: pointer;
-        padding: 14px 16px;
+        padding: 12px 12px;
         transition: 0.3s;
         font-weight: bold;
         color: black;

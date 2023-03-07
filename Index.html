@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/site.css">
 </head>
 <body>
 
@@ -15,42 +17,19 @@
             <div class="p-4 pt-5">
                 <a href="#" class="img logo rounded-circle mb-5" style="background-image: url(images/logo.jpg);"></a>
                 <ul class="list-unstyled components mb-5">
-                    <li class="active">
-                        <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Chapter 1</a>
-                        <ul class="collapse list-unstyled" id="homeSubmenu">
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">ग्रंथ</a>
+                        <ul class="collapse list-unstyled" id="pageSubmenu">
                             <li>
-                                <a href="#" onclick="reload('#');">Mangalacharan</a>
-                            </li>
-                            <li>
-                                <a href="#" onclick="reload('?=01-01');">1 - मोक्ष का उपाय</a>
-                            </li>
-                            <li>
-                                <a href="#" onclick="reload('?=01-02');">2 - ﻿सम्यग्दर्शन का लक्षण</a>
-                            </li>
-                            <li>
-                                <a href="#" onclick="reload('#01-03');">3 - ﻿सम्यग्दर्शन का लक्षण</a>
+                                <a href="tatvarth.html?gatha=home">तत्वार्थ सूत्र</a>
                             </li>
                         </ul>
                     </li>
                     <li>
                         <a href="#">About</a>
-                    </li>
-                    <li>
-                        <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Pages</a>
-                        <ul class="collapse list-unstyled" id="pageSubmenu">
-                            <li>
-                                <a href="#">Page 1</a>
-                            </li>
-                            <li>
-                                <a href="#">Page 2</a>
-                            </li>
-                            <li>
-                                <a href="#">Page 3</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="#">Portfolio</a>
                     </li>
                     <li>
                         <a href="#">Contact</a>
@@ -70,7 +49,6 @@
         </nav>
         <!-- Page Content  -->
         <div id="content" class="p-4 p-md-5">
-
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <div class="container-fluid">
 
@@ -91,22 +69,17 @@
                                 <a class="nav-link" href="#">About</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Portfolio</a>
-                            </li>
-                            <li class="nav-item">
                                 <a class="nav-link" href="#">Contact</a>
                             </li>
                         </ul>
                     </div>
                 </div>
             </nav>
-
-            <div id="gContent">
-                <div id="mangal"></div>
-                <div id="01-01"></div>
-                <div id="01-02"></div>
+            <div>
+                <a class="btnlinks" href="tatvarth.html?gatha=home">तत्वार्थ सूत्र</a>
             </div>
-            <h2 class="mb-4">Sidebar #01</h2>
+            <br />
+            <h2 class="mb-4">Preface</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         </div>
@@ -116,7 +89,6 @@
     <script src="js/popper.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/main.js"></script>
-    <script src="js/tatvarth.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
 </body>
 </html>
